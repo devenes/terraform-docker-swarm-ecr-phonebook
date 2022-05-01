@@ -6,7 +6,7 @@ output "website-url" {
   value = "http://${aws_instance.docker-machine-leader-manager.public_ip}"
 }
 
-output "viz-url" {
+output "visualizer-url" {
   value = "http://${aws_instance.docker-machine-leader-manager.public_ip}:8080"
 }
 
