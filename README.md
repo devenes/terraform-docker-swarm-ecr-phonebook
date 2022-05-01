@@ -8,13 +8,17 @@ This project aims to deploy the Phonebook Application web application with Docke
 
 ![Project](./readme/docker-swarm.jpg)
 
-## Expected Output
+## Docker Swarm Cluster
 
 ![Project](./readme/swarm.png)
 
 ![Project](./readme/instances.png)
 
+## Elastic Container Registry Repository
+
 ![Project](./readme/ecr.png)
+
+## Case Study Details
 
 - Your company has recently started a project that aims to serve as phonebook web application. Your teammates have started to work on the project and developed the UI and backend part of the project and they need your help to deploy the app in development environment.
 
@@ -125,3 +129,5 @@ This project aims to deploy the Phonebook Application web application with Docke
 - [EC2 Instance Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html)
 
 - [Amazon Elastic Container Registry Documentation](https://docs.aws.amazon.com/ecr/index.html)
+
+- [Docker Swarm](https://docs.docker.com/engine/swarm)
