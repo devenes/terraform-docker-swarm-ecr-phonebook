@@ -165,8 +165,7 @@ resource "aws_instance" "docker-machine-leader-manager" {
   # security_groups      = ["docker-swarm-sec-gr"]
 
   root_block_device {
-    # volume_size = 16
-    volume_size = 8
+    volume_size = 16
   }
 
   tags = {
