@@ -1,0 +1,20 @@
+.git
+.gitignore
+.editorconfig
+
+# Compiled files
+**/.terraform/*
+**/.terragrunt-cache/*
+*.tfstate
+*.tfstate.*
+
+# Module directory
+.terraform
+**/.idea
+**/*.iml
+*.tf
+
+**/.build-harness
+**/build-harness
+
+*.sh
