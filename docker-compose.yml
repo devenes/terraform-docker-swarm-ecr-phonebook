@@ -14,7 +14,7 @@ services:
             - source: table
               target: /docker-entrypoint-initdb.d/init.sql
         networks:
-            - enesnet
+            - devenesnet
 
     app-server:
         env_file: .env
@@ -28,11 +28,10 @@ services:
         ports: 
             - "80:80"
         networks:
-            - enesnet
+            - devenesnet
 
 networks:
-    enesnet:
-        
+    devenesnet:        
 
 volumes:
     db-data:
