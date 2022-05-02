@@ -18,6 +18,12 @@ This project aims to deploy the Phonebook Application web application with Docke
 
 ![Project](./readme/ecr.png)
 
+## Terraform Outputs
+
+![Output](./readme/logs.png)
+
+![Output](./readme/output.png)
+
 ## Case Study Details
 
 - Your company has recently started a project that aims to serve as phonebook web application. Your teammates have started to work on the project and developed the UI and backend part of the project and they need your help to deploy the app in development environment.
