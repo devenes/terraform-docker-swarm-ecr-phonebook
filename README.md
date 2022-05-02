@@ -20,7 +20,7 @@ This project aims to deploy the Phonebook Application web application with Docke
 
 ## Terraform Outputs
 
-![Output](./readme/logs.png)
+![Output](./readme/logs.gif)
 
 ![Output](./readme/output.png)
 
