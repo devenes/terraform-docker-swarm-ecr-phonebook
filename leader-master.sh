@@ -11,11 +11,11 @@ chmod +x /usr/local/bin/docker-compose
 docker swarm init
 aws ecr get-login-password --region ${data.aws_region.current.name} | docker login --username AWS --password-stdin ${aws_ecr_repository.ecr-repo.repository_url}
 docker service create \
---name=viz \
---publish=8080:8080/tcp \
---constraint=node.role==manager \
---mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
-dockersamples/visualizer
+    --name=viz \
+    --publish=8080:8080/tcp \
+    --constraint=node.role==manager \
+    --mount=type=bind,src=/var/run/docker.sock,dst=/var/run/docker.sock \
+    dockersamples/visualizer
 yum install git -y
 # uninstall aws cli version 1
 rm -rf /bin/aws
