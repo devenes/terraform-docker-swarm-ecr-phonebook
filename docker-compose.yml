@@ -31,7 +31,8 @@ services:
             - devenesnet
 
 networks:
-    devenesnet:        
+    devenesnet:
+        driver: overlay        
 
 volumes:
     db-data:
