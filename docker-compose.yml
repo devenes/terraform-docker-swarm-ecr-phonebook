@@ -32,7 +32,7 @@ services:
 
 networks:
     enesnet:
-        driver: bridge
+        
 
 volumes:
     db-data:
