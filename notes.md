@@ -1,4 +1,4 @@
-## INFRASTRUCTURE
+## Infrastructure
 
 - Public Github Repository
 
@@ -8,23 +8,23 @@
 
   - 2 Worker nodes
 
-    - Each of them must commminicate to each other.
+    - Each of the nodes should communicate with the other nodes via Docker Swarm
 
-    - EC2 instance connect cli
+    - EC2 instance to connect CLI
 
     - IAM policy
 
   - Leader manager node can pull/push image from/to ECR.
 
-  - ECR policy for full-access
+  - Full-Access ECR policy for the instances.
 
   - Other managers and worker nodes can pull image from ECR.
 
 - AWS ECR to be created for image registry.
 
-- `main.tf` terraform file
+- `main.tf` terraform file to be created.
 
-## APPLICATION
+## Application
 
 - `Dockerfile`
 
@@ -42,6 +42,6 @@
 
   - Services:
 
-    - app-server and my-sql
+    - app-server and MySQL
 
     - app-server image will be pulled from ECR.
