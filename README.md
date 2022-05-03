@@ -1,4 +1,6 @@
-# Docker Swarm Deployment of Python Flask Phonebook Application with MySQL using Terraform
+[![Terraform Infrastructure Plan](https://github.com/devenes/terraform-docker-swarm-ecr-phonebook/actions/workflows/tf_plan.yml/badge.svg)](https://github.com/devenes/terraform-docker-swarm-ecr-phonebook/actions/workflows/tf_plan.yml)
+
+# Automated Docker Swarm Deployment of Python Flask App using Terraform
 
 ## Description
 
