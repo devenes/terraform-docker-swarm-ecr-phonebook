@@ -37,6 +37,6 @@ jobs:
         with:
           push: true
           cache: true
-          tags: $DOCKERHUB_USERNAME/python-phonebook-app:${{ github.run_number }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-phonebook-app:${{ github.run_number }}
           dockerfile: Dockerfile
           context: .
