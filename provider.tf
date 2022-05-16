@@ -8,5 +8,6 @@ terraform {
 }
 
 provider "aws" {
+  # If you use variables in providers GitHub Actions will not be able to see them
   region = "us-east-1"
 }
