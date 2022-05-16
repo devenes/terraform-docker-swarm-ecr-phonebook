@@ -1,4 +1,4 @@
-[![Terraform Infrastructure Plan](https://github.com/devenes/terraform-docker-swarm-ecr-phonebook/actions/workflows/tf_plan.yml/badge.svg)](https://github.com/devenes/terraform-docker-swarm-ecr-phonebook/actions/workflows/tf_plan.yml)
+[![Docker Build And Push](https://github.com/devenes/terraform-docker-swarm-ecr-phonebook/actions/workflows/dockerx.yml/badge.svg)](https://github.com/devenes/terraform-docker-swarm-ecr-phonebook/actions/workflows/dockerx.yml) [![Terraform Infrastructure Plan](https://github.com/devenes/terraform-docker-swarm-ecr-phonebook/actions/workflows/terraform_plan.yml/badge.svg)](https://github.com/devenes/terraform-docker-swarm-ecr-phonebook/actions/workflows/terraform_plan.yml)
 
 # Automated Docker Swarm Deployment of Python Flask App using Terraform
 
