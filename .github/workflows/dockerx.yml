@@ -36,7 +36,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          cache: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-phonebook-app:${{ github.run_number }}
-          dockerfile: Dockerfile
-          context: .
